@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A80D30129703F3600A6E1DF /* HealthFriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D30029703F3600A6E1DF /* HealthFriendApp.swift */; };
+		9A80D30329703F3600A6E1DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D30229703F3600A6E1DF /* ContentView.swift */; };
+		9A80D30529703F3800A6E1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A80D30429703F3800A6E1DF /* Assets.xcassets */; };
+		9A80D30829703F3800A6E1DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A80D30729703F3800A6E1DF /* Preview Assets.xcassets */; };
+		9A80D31229703F3800A6E1DF /* HealthFriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D31129703F3800A6E1DF /* HealthFriendTests.swift */; };
+		9A80D31C29703F3800A6E1DF /* HealthFriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D31B29703F3800A6E1DF /* HealthFriendUITests.swift */; };
+		9A80D31E29703F3800A6E1DF /* HealthFriendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D31D29703F3800A6E1DF /* HealthFriendUITestsLaunchTests.swift */; };
+		9A80D32429703F3800A6E1DF /* HealthFriend Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9A80D32329703F3800A6E1DF /* HealthFriend Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9A80D32929703F3800A6E1DF /* HealthFriendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D32829703F3800A6E1DF /* HealthFriendApp.swift */; };
+		9A80D32B29703F3800A6E1DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D32A29703F3800A6E1DF /* ContentView.swift */; };
+		9A80D32D29703F3800A6E1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A80D32C29703F3800A6E1DF /* Assets.xcassets */; };
+		9A80D33029703F3800A6E1DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A80D32F29703F3800A6E1DF /* Preview Assets.xcassets */; };
+		9A80D33A29703F3900A6E1DF /* HealthFriend_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D33929703F3900A6E1DF /* HealthFriend_Watch_AppTests.swift */; };
+		9A80D34429703F3900A6E1DF /* HealthFriend_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D34329703F3900A6E1DF /* HealthFriend_Watch_AppUITests.swift */; };
+		9A80D34629703F3900A6E1DF /* HealthFriend_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A80D34529703F3900A6E1DF /* HealthFriend_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A80D30E29703F3800A6E1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A80D2F529703F3600A6E1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A80D2FC29703F3600A6E1DF;
+			remoteInfo = HealthFriend;
+		};
+		9A80D31829703F3800A6E1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A80D2F529703F3600A6E1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A80D2FC29703F3600A6E1DF;
+			remoteInfo = HealthFriend;
+		};
+		9A80D32529703F3800A6E1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A80D2F529703F3600A6E1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A80D32229703F3800A6E1DF;
+			remoteInfo = "HealthFriend Watch App";
+		};
+		9A80D33629703F3800A6E1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A80D2F529703F3600A6E1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A80D32229703F3800A6E1DF;
+			remoteInfo = "HealthFriend Watch App";
+		};
+		9A80D34029703F3900A6E1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A80D2F529703F3600A6E1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A80D32229703F3800A6E1DF;
+			remoteInfo = "HealthFriend Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A80D34C29703F3900A6E1DF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9A80D32429703F3800A6E1DF /* HealthFriend Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A80D2FD29703F3600A6E1DF /* HealthFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A80D30029703F3600A6E1DF /* HealthFriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriendApp.swift; sourceTree = "<group>"; };
+		9A80D30229703F3600A6E1DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A80D30429703F3800A6E1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A80D30729703F3800A6E1DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A80D30D29703F3800A6E1DF /* HealthFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthFriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A80D31129703F3800A6E1DF /* HealthFriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriendTests.swift; sourceTree = "<group>"; };
+		9A80D31729703F3800A6E1DF /* HealthFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A80D31B29703F3800A6E1DF /* HealthFriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriendUITests.swift; sourceTree = "<group>"; };
+		9A80D31D29703F3800A6E1DF /* HealthFriendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A80D32329703F3800A6E1DF /* HealthFriend Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HealthFriend Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A80D32829703F3800A6E1DF /* HealthFriendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriendApp.swift; sourceTree = "<group>"; };
+		9A80D32A29703F3800A6E1DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A80D32C29703F3800A6E1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A80D32F29703F3800A6E1DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A80D33529703F3800A6E1DF /* HealthFriend Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthFriend Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A80D33929703F3900A6E1DF /* HealthFriend_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriend_Watch_AppTests.swift; sourceTree = "<group>"; };
+		9A80D33F29703F3900A6E1DF /* HealthFriend Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HealthFriend Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A80D34329703F3900A6E1DF /* HealthFriend_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriend_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		9A80D34529703F3900A6E1DF /* HealthFriend_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFriend_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A80D2FA29703F3600A6E1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D30A29703F3800A6E1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D31429703F3800A6E1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D32029703F3800A6E1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D33229703F3800A6E1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D33C29703F3900A6E1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A80D2F429703F3600A6E1DF = {
+			isa = PBXGroup;
+			children = (
+				9A80D2FF29703F3600A6E1DF /* HealthFriend */,
+				9A80D31029703F3800A6E1DF /* HealthFriendTests */,
+				9A80D31A29703F3800A6E1DF /* HealthFriendUITests */,
+				9A80D32729703F3800A6E1DF /* HealthFriend Watch App */,
+				9A80D33829703F3900A6E1DF /* HealthFriend Watch AppTests */,
+				9A80D34229703F3900A6E1DF /* HealthFriend Watch AppUITests */,
+				9A80D2FE29703F3600A6E1DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A80D2FE29703F3600A6E1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D2FD29703F3600A6E1DF /* HealthFriend.app */,
+				9A80D30D29703F3800A6E1DF /* HealthFriendTests.xctest */,
+				9A80D31729703F3800A6E1DF /* HealthFriendUITests.xctest */,
+				9A80D32329703F3800A6E1DF /* HealthFriend Watch App.app */,
+				9A80D33529703F3800A6E1DF /* HealthFriend Watch AppTests.xctest */,
+				9A80D33F29703F3900A6E1DF /* HealthFriend Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A80D2FF29703F3600A6E1DF /* HealthFriend */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D30029703F3600A6E1DF /* HealthFriendApp.swift */,
+				9A80D30229703F3600A6E1DF /* ContentView.swift */,
+				9A80D30429703F3800A6E1DF /* Assets.xcassets */,
+				9A80D30629703F3800A6E1DF /* Preview Content */,
+			);
+			path = HealthFriend;
+			sourceTree = "<group>";
+		};
+		9A80D30629703F3800A6E1DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D30729703F3800A6E1DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A80D31029703F3800A6E1DF /* HealthFriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D31129703F3800A6E1DF /* HealthFriendTests.swift */,
+			);
+			path = HealthFriendTests;
+			sourceTree = "<group>";
+		};
+		9A80D31A29703F3800A6E1DF /* HealthFriendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D31B29703F3800A6E1DF /* HealthFriendUITests.swift */,
+				9A80D31D29703F3800A6E1DF /* HealthFriendUITestsLaunchTests.swift */,
+			);
+			path = HealthFriendUITests;
+			sourceTree = "<group>";
+		};
+		9A80D32729703F3800A6E1DF /* HealthFriend Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D32829703F3800A6E1DF /* HealthFriendApp.swift */,
+				9A80D32A29703F3800A6E1DF /* ContentView.swift */,
+				9A80D32C29703F3800A6E1DF /* Assets.xcassets */,
+				9A80D32E29703F3800A6E1DF /* Preview Content */,
+			);
+			path = "HealthFriend Watch App";
+			sourceTree = "<group>";
+		};
+		9A80D32E29703F3800A6E1DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D32F29703F3800A6E1DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A80D33829703F3900A6E1DF /* HealthFriend Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D33929703F3900A6E1DF /* HealthFriend_Watch_AppTests.swift */,
+			);
+			path = "HealthFriend Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9A80D34229703F3900A6E1DF /* HealthFriend Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A80D34329703F3900A6E1DF /* HealthFriend_Watch_AppUITests.swift */,
+				9A80D34529703F3900A6E1DF /* HealthFriend_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "HealthFriend Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A80D2FC29703F3600A6E1DF /* HealthFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A80D34D29703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend" */;
+			buildPhases = (
+				9A80D2F929703F3600A6E1DF /* Sources */,
+				9A80D2FA29703F3600A6E1DF /* Frameworks */,
+				9A80D2FB29703F3600A6E1DF /* Resources */,
+				9A80D34C29703F3900A6E1DF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A80D32629703F3800A6E1DF /* PBXTargetDependency */,
+			);
+			name = HealthFriend;
+			productName = HealthFriend;
+			productReference = 9A80D2FD29703F3600A6E1DF /* HealthFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A80D30C29703F3800A6E1DF /* HealthFriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A80D35029703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriendTests" */;
+			buildPhases = (
+				9A80D30929703F3800A6E1DF /* Sources */,
+				9A80D30A29703F3800A6E1DF /* Frameworks */,
+				9A80D30B29703F3800A6E1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A80D30F29703F3800A6E1DF /* PBXTargetDependency */,
+			);
+			name = HealthFriendTests;
+			productName = HealthFriendTests;
+			productReference = 9A80D30D29703F3800A6E1DF /* HealthFriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A80D31629703F3800A6E1DF /* HealthFriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A80D35329703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriendUITests" */;
+			buildPhases = (
+				9A80D31329703F3800A6E1DF /* Sources */,
+				9A80D31429703F3800A6E1DF /* Frameworks */,
+				9A80D31529703F3800A6E1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A80D31929703F3800A6E1DF /* PBXTargetDependency */,
+			);
+			name = HealthFriendUITests;
+			productName = HealthFriendUITests;
+			productReference = 9A80D31729703F3800A6E1DF /* HealthFriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9A80D32229703F3800A6E1DF /* HealthFriend Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A80D34929703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend Watch App" */;
+			buildPhases = (
+				9A80D31F29703F3800A6E1DF /* Sources */,
+				9A80D32029703F3800A6E1DF /* Frameworks */,
+				9A80D32129703F3800A6E1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HealthFriend Watch App";
+			productName = "HealthFriend Watch App";
+			productReference = 9A80D32329703F3800A6E1DF /* HealthFriend Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A80D33429703F3800A6E1DF /* HealthFriend Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A80D35629703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend Watch AppTests" */;
+			buildPhases = (
+				9A80D33129703F3800A6E1DF /* Sources */,
+				9A80D33229703F3800A6E1DF /* Frameworks */,
+				9A80D33329703F3800A6E1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A80D33729703F3800A6E1DF /* PBXTargetDependency */,
+			);
+			name = "HealthFriend Watch AppTests";
+			productName = "HealthFriend Watch AppTests";
+			productReference = 9A80D33529703F3800A6E1DF /* HealthFriend Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A80D33E29703F3900A6E1DF /* HealthFriend Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A80D35929703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend Watch AppUITests" */;
+			buildPhases = (
+				9A80D33B29703F3900A6E1DF /* Sources */,
+				9A80D33C29703F3900A6E1DF /* Frameworks */,
+				9A80D33D29703F3900A6E1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A80D34129703F3900A6E1DF /* PBXTargetDependency */,
+			);
+			name = "HealthFriend Watch AppUITests";
+			productName = "HealthFriend Watch AppUITests";
+			productReference = 9A80D33F29703F3900A6E1DF /* HealthFriend Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A80D2F529703F3600A6E1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9A80D2FC29703F3600A6E1DF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9A80D30C29703F3800A6E1DF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A80D2FC29703F3600A6E1DF;
+					};
+					9A80D31629703F3800A6E1DF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A80D2FC29703F3600A6E1DF;
+					};
+					9A80D32229703F3800A6E1DF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9A80D33429703F3800A6E1DF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A80D32229703F3800A6E1DF;
+					};
+					9A80D33E29703F3900A6E1DF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9A80D32229703F3800A6E1DF;
+					};
+				};
+			};
+			buildConfigurationList = 9A80D2F829703F3600A6E1DF /* Build configuration list for PBXProject "HealthFriend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A80D2F429703F3600A6E1DF;
+			productRefGroup = 9A80D2FE29703F3600A6E1DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A80D2FC29703F3600A6E1DF /* HealthFriend */,
+				9A80D30C29703F3800A6E1DF /* HealthFriendTests */,
+				9A80D31629703F3800A6E1DF /* HealthFriendUITests */,
+				9A80D32229703F3800A6E1DF /* HealthFriend Watch App */,
+				9A80D33429703F3800A6E1DF /* HealthFriend Watch AppTests */,
+				9A80D33E29703F3900A6E1DF /* HealthFriend Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A80D2FB29703F3600A6E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D30829703F3800A6E1DF /* Preview Assets.xcassets in Resources */,
+				9A80D30529703F3800A6E1DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D30B29703F3800A6E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D31529703F3800A6E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D32129703F3800A6E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D33029703F3800A6E1DF /* Preview Assets.xcassets in Resources */,
+				9A80D32D29703F3800A6E1DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D33329703F3800A6E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D33D29703F3900A6E1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A80D2F929703F3600A6E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D30329703F3600A6E1DF /* ContentView.swift in Sources */,
+				9A80D30129703F3600A6E1DF /* HealthFriendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D30929703F3800A6E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D31229703F3800A6E1DF /* HealthFriendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D31329703F3800A6E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D31E29703F3800A6E1DF /* HealthFriendUITestsLaunchTests.swift in Sources */,
+				9A80D31C29703F3800A6E1DF /* HealthFriendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D31F29703F3800A6E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D32B29703F3800A6E1DF /* ContentView.swift in Sources */,
+				9A80D32929703F3800A6E1DF /* HealthFriendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D33129703F3800A6E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D33A29703F3900A6E1DF /* HealthFriend_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80D33B29703F3900A6E1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80D34629703F3900A6E1DF /* HealthFriend_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9A80D34429703F3900A6E1DF /* HealthFriend_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A80D30F29703F3800A6E1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A80D2FC29703F3600A6E1DF /* HealthFriend */;
+			targetProxy = 9A80D30E29703F3800A6E1DF /* PBXContainerItemProxy */;
+		};
+		9A80D31929703F3800A6E1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A80D2FC29703F3600A6E1DF /* HealthFriend */;
+			targetProxy = 9A80D31829703F3800A6E1DF /* PBXContainerItemProxy */;
+		};
+		9A80D32629703F3800A6E1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A80D32229703F3800A6E1DF /* HealthFriend Watch App */;
+			targetProxy = 9A80D32529703F3800A6E1DF /* PBXContainerItemProxy */;
+		};
+		9A80D33729703F3800A6E1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A80D32229703F3800A6E1DF /* HealthFriend Watch App */;
+			targetProxy = 9A80D33629703F3800A6E1DF /* PBXContainerItemProxy */;
+		};
+		9A80D34129703F3900A6E1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A80D32229703F3800A6E1DF /* HealthFriend Watch App */;
+			targetProxy = 9A80D34029703F3900A6E1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9A80D34729703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A80D34829703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9A80D34A29703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthFriend Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthFriend;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = TatBal.HealthFriend;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriend.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		9A80D34B29703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthFriend Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthFriend;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = TatBal.HealthFriend;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriend.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		9A80D34E29703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthFriend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthFriend;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A80D34F29703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthFriend/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthFriend;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A80D35129703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthFriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthFriend";
+			};
+			name = Debug;
+		};
+		9A80D35229703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthFriend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthFriend";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A80D35429703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthFriend;
+			};
+			name = Debug;
+		};
+		9A80D35529703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TatBal.HealthFriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthFriend;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A80D35729703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TatBal.HealthFriend-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthFriend Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthFriend Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		9A80D35829703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TatBal.HealthFriend-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthFriend Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthFriend Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		9A80D35A29703F3900A6E1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TatBal.HealthFriend-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HealthFriend Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		9A80D35B29703F3900A6E1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TatBal.HealthFriend-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HealthFriend Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A80D2F829703F3600A6E1DF /* Build configuration list for PBXProject "HealthFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D34729703F3900A6E1DF /* Debug */,
+				9A80D34829703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A80D34929703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D34A29703F3900A6E1DF /* Debug */,
+				9A80D34B29703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A80D34D29703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D34E29703F3900A6E1DF /* Debug */,
+				9A80D34F29703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A80D35029703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D35129703F3900A6E1DF /* Debug */,
+				9A80D35229703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A80D35329703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D35429703F3900A6E1DF /* Debug */,
+				9A80D35529703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A80D35629703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D35729703F3900A6E1DF /* Debug */,
+				9A80D35829703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A80D35929703F3900A6E1DF /* Build configuration list for PBXNativeTarget "HealthFriend Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A80D35A29703F3900A6E1DF /* Debug */,
+				9A80D35B29703F3900A6E1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A80D2F529703F3600A6E1DF /* Project object */;
+}

@@ -1,0 +1,2 @@
+# HealthFriend
+Health Friend License
